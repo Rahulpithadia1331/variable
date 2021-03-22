@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Scoped CSS Variables and JS</title>
+    <title>Variables</title>
 </head>
 
 <body>
-    <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+    <h2><span class='hl'>Cute Dog</span></h2>
 
     <div class="controls">
         <label for="spacing">Spacing:</label>
         <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
         <label for="blur">Blur:</label>
-        <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        <input id="blur" type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
 
         <label for="base">Base Color</label>
         <input id="base" type="color" name="base" value="#ffc600">
     </div>
 
-    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+    <img src="https://images.unsplash.com/photo-1557339040-9fd1f2e3a904?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA3fHxkb2dzfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60">
 
     <style>
          :root {
-            --base: #ffc600;
+            --base: #000000;
             --spacing: 10px;
             --blur: 10px;
         }
@@ -44,7 +44,7 @@
         
         body {
             text-align: center;
-            background: #193549;
+            background: #706109;
             color: white;
             font-family: 'helvetica neue', sans-serif;
             font-weight: 100;
